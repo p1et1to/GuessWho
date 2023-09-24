@@ -33,5 +33,7 @@ public class GuessingGameGit {
 					numberOfGuesses++; //Lasketaan arvauskertoja, jos arvaus menee väärin.
 				}
 		} while (gameIsRunning);
+	
+		in.close(); //Suljetaan "input scanner".
 	}
 }
